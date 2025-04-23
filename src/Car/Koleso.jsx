@@ -68,7 +68,7 @@ function Reducers(state, action) {
                     ...state,
 
                     data: [
-                        ...state.data || {},
+                        ...state.data || 0,
                         {
                             id: state.data.length,
                             mark: state.mark,
