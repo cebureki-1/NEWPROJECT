@@ -1,0 +1,36 @@
+.car-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .car-card {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .car-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .car-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .car-info {
+    padding: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .car-info p {
+    margin: 6px 0;
+    color: #333;
+    font-size: 14px;
+  }
+  
